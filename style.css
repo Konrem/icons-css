@@ -139,3 +139,21 @@ section{
     top: 50%;
     transform: translate(-50%, -50%);
 }
+
+/* linkedin */
+.box-linkedin{
+    width: 80px;
+    height: 80px;
+    background-color: rgb(22 102 197);
+    border-radius: 8%;
+    position: relative;
+}
+.element-in{
+    position: absolute;
+    color:rgb(255, 255, 255);
+    font-weight: 700;
+    font-family: sans-serif;
+    font-size: 75px;
+    left: 45%;
+    transform: translateX(-45%)
+}
