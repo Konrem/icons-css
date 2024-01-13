@@ -224,3 +224,26 @@ section{
     border-top: 40px solid rgb(34, 158, 217);
     transform: rotateZ(210deg) rotateY(35deg) rotateX(325deg);
 }
+
+/* twitter - x */
+.box-twitter{
+    position: relative;
+}
+.paralelogram1-x{
+    width: 6px;
+    height: 60px;
+    transform: skew(38deg);
+    background-color: white;
+    border: 10px solid black;
+    
+}
+.paralelogram2-x{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 25%;
+    width: 12px;
+    height: 80px;
+    transform: skew(-38deg);
+    background: black;
+}
