@@ -6,3 +6,46 @@ body{
     grid-template-columns: repeat(3, auto);
     grid-template-rows: repeat(5, auto);
 }
+section{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box__element {
+    display: grid;
+    justify-self: center;
+    align-self: center
+  }
+
+  /* youtube */
+  .triangle-right {
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-left: 30px solid rgb(255, 255, 255);
+    border-bottom: 15px solid transparent;
+    z-index: 5;
+  }
+
+  .box-youtube {
+    position: relative;
+    width: 90px;
+    height: 70px;
+    background: rgb(255, 0, 0);
+    border-radius: 50% / 10%;
+    color: white;
+    text-align: center;
+  }
+  
+  .box-youtube:before {
+    content: '';
+    position: absolute;
+    top: 10%;
+    bottom: 10%;
+    right: -5%;
+    left: -5%;
+    background: inherit;
+    border-radius: 5% / 50%;
+  }
