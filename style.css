@@ -142,14 +142,15 @@ section{
 }
 
 /* linkedin */
-.box-linkedin{
+.icon-linkedin{
     width: 80px;
     height: 80px;
     background-color: rgb(22 102 197);
     border-radius: 8%;
     position: relative;
 }
-.element-in{
+.icon-linkedin::before{
+    content: "in";
     position: absolute;
     color:rgb(255, 255, 255);
     font-weight: 700;
