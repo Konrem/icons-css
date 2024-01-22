@@ -230,10 +230,12 @@ section{
 }
 
 /* twitter - x */
-.box-twitter{
+.icon-twitter{
     position: relative;
 }
-.paralelogram1-x{
+.icon-twitter::before{
+    content: "";
+    display: block;
     width: 6px;
     height: 60px;
     transform: skew(38deg);
@@ -241,8 +243,10 @@ section{
     border: 10px solid black;
     
 }
-.paralelogram2-x{
+.icon-twitter::after{
+    content: "";
     position: absolute;
+    display: block;
     z-index: -1;
     top: 0;
     left: 25%;
