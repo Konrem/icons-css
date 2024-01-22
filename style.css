@@ -195,7 +195,7 @@ section{
 }
 
 /* telegram */
-.box-telegram{
+.icon-telegram{
     position: relative;
     width: 85px;
     height: 85px;
@@ -203,7 +203,8 @@ section{
     background: rgb(34, 158, 217);
     overflow: hidden;
 }
-.cone {
+.icon-telegram::before {
+    content: "";
     position: absolute;
     left: 23%;
     top: 10%;
@@ -215,7 +216,8 @@ section{
     border-radius: 10%;
     transform: rotateZ(209deg) rotateY(35deg) rotateX(325deg);
 }
-.cone-small {
+.icon-telegram::after {
+    content: "";
     position: absolute;
     left: 36%;
     bottom: 20%;
